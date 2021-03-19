@@ -1,0 +1,13 @@
+.sidebar .MuiSvgIcon-root {
+    color: blue;
+}
+
+.sidebar {
+    cursor: pointer;
+}
+
+.sidebar_profile {
+    height: 36px !important;
+    width: 36px !important;
+}
+

@@ -1,0 +1,5 @@
+.facebook_body {
+    margin-top: 16px;
+    display: flex;
+    justify-content: space-between;
+}

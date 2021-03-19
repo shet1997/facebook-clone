@@ -1,0 +1,25 @@
+.posts {
+    margin-top: 16px;
+}
+
+.post_like_comment_share.MuiCardActions-root {
+    justify-content: space-around;
+}
+
+.post_like_comment_share {
+    padding: 0 !important;
+    border-bottom: 1px solid rgb(0 0 0 / 20%);
+    border-top: 1px solid rgb(0 0 0 / 20%);
+}
+
+.post_desc {
+    padding: 5px 15px;
+    border-bottom: 1px solid rgb(0 0 0 / 20%);
+    background-color: rgb(0 0 0 / 5%);
+}
+
+.post_img {
+    padding: 0;
+    border-bottom: 1px solid rgb(0 0 0 / 20%);
+    border-top: 1px solid rgb(0 0 0 / 20%);
+}

@@ -1,0 +1,33 @@
+.story_profile .MuiAvatar-circle {
+    border: 5px solid blue;
+}
+
+.storyreel {
+    position: relative;
+    margin: 0 4px;
+    color: white;
+}
+
+.story_profile {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+.story_title {
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+}
+
+.story {
+    border-radius: 10px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    box-sizing: border-box;
+}
+
+.story:hover {
+    transform: scale(1.025);
+    transition: transform .2s;
+    background-color: rgb(0 0 0 / 40%);
+}

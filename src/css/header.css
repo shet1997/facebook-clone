@@ -1,0 +1,102 @@
+.header_left > img {
+    height: 40px;
+}
+
+.header {
+    display: flex;
+    height: 55px;
+    align-items: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+    background-color: white;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 20%);
+    justify-content: space-between;
+}
+
+.header_left {
+    display: flex;
+    cursor: pointer;
+}
+
+.header_center {
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+}
+
+.header_userProfile {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.header_right {
+    display: flex;
+    margin-right: 16px;
+    align-items: center;
+}
+
+.facebook_logo {
+    height: 40px;
+    margin-left: 16px;
+}
+
+.header_search {
+    background-color: rgba(0, 0, 0, 0.05);
+    padding-left: 10px;
+    border-radius: 25px;
+    display: flex;
+    align-items: center;
+    height: 40px;
+    width: 240px;
+    margin-left: 8px;
+}
+
+.header_input {
+    border: 0 !important;
+    outline: none !important;
+    background-color: transparent !important;
+}
+
+.MuiSvgIcon-root {
+    color: gray;
+}
+
+.header_center svg {
+    width: 111.59px;
+    margin-right: 8px;
+    height: 28px;
+}
+
+.header_center svg:hover {
+    border-radius: 2px;
+
+}
+/* 
+.header_center svg:first-child {
+    color: blue;
+} */
+
+.profile_info {
+    margin-right: 6px;
+    border-radius: 50% !important;
+    width: 28px !important;
+    height: 28px !important;
+}
+
+.header_center .MuiButtonBase-root .MuiIconButton-root:hover {
+    border-radius: 5px;
+}
+
+body {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.header_center svg:focus {
+    color: blue;
+    border-bottom: 2px solid blue;
+}
+
+.header_center svg path {
+    width: 28px;
+    height: 28px;
+}

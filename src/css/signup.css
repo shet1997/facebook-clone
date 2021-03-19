@@ -1,0 +1,75 @@
+.signup_wrapper {
+    display: flex;
+    align-items: center;
+    padding-top: 92px;
+    justify-content: center;
+}
+
+.login_button {
+    background-color: #1877f2 !important;
+    border: 0;
+    width: 364px;
+    height: 48px;
+    margin-top: 6px !important;
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+form input {
+    width: 330px;
+    border: 1px solid #dddfe2 !important;
+    border-radius: 5px;
+    margin: 6px 0;
+    padding: 14px 16px;
+    font-size: 16px;
+}
+
+.forgot_password {
+    margin: 16px 0 !important;
+    text-align: center;
+}
+
+.forgot_password a {
+    color: #1877f2;
+    text-decoration: none;
+}
+
+.create_Account{
+    background-color: #42b72a !important;
+    text-align: center;
+    border: none !important;
+    margin-top: 22px !important;
+    height: 48px;
+}
+
+.create_Account {
+    color: white !important;
+    font-weight: 600 !important;
+}
+
+.signup_info {
+    padding-right: 32px;
+}
+
+.page {
+    text-decoration: none;
+    color: black;
+}
+
+.signup_body {
+    background-color: #f0f2f5;
+    height: 100vh;
+}
+
+.signup_btn {
+    display: flex;
+    justify-content: center;
+}
+
+.MuiDialog-paperWidthSm {
+    max-width: 400px !important;
+}
+
+.MuiDialogContent-dividers {
+    padding: 16px !important;
+}
